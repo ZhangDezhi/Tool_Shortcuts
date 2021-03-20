@@ -8,8 +8,8 @@
    Ctrl + k , Ctrl + f         | 格式化代码
 
 
-
-
+修改工具栏字体大小: File->preference->settng,在设置里面找到zoom-level，修改改值即可。
+第一个“editor.fontSize”是编辑器的字体大小，第二个“window.zoomLevel”是整个窗体的大小级
 
 
 ## 插件

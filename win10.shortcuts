@@ -79,39 +79,3 @@ Alt + D | 地址栏
 Ctrl + E | 搜索栏
 Alt + P | 打开预览
 Ctrl + Shift + N  | 新建文件夹
-
-
-## choco包管理
-```bash
-choco install nodejs.install  #安装 
-choco uninstall bandizip      #卸载
-choco list --local            #查看所有程序
-choco outdated                #检查一下哪些应用需要更新
-choco upgrade --yes Bandizip  #升级
-choco upgrade --yes all       #一键升级所有
-choco info tim 
-
-----------------------------------------
-choco install imageglass --version=7.5.1.1   #图片查看工具
-choco install listary
-choco install wox
-choco install treesizefree 
-choco install ccleaner
-choco install adwcleaner
-choco install filezilla
-choco install filezilla.server
-choco install mpv 
-choco install irfanview 
-choco install shotcut 
-choco install qtranslate 
-choco install googlechrome
-choco install vscode  
-choco install 7zip.install
-choco install --yes Bandizip
-choco install intellijidea-community //IDEA 社区版
-choco install intellijidea-ultimate //IDEA 旗舰版
-choco install jdk8 googlechrome vscode 7zip //一次安装多个
-choco install nodejs.install --version 0.10.35 //安装指定版本
-choco install dev-package.config //安装dev-package.config文件内描述的所有软件包
-
-```
