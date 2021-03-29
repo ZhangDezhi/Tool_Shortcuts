@@ -51,7 +51,11 @@ What now> 6
 ```
 $ git stash                      # 临时储藏工作到stash
 $ git stash list                 # 查看stash内容
+stash@{0} xxxxxx1
+stash@{1} xxxxxx2
+
 $ git stash apply                # 恢复stash内容
+$ git stash apply stash@{1}
 $ git stash drop                 # 删除stash内容
 $ git stash pop                  # 恢复并删除stash内容
 ```

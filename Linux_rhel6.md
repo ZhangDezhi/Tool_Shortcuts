@@ -43,3 +43,12 @@ $ yum -y remove python-2.7.5-76.el7.x86_64  #卸载包
 Shift + 双击文件夹   | 在本文件夹内打开.  (默认是在新窗口打开)
 backspace | 返回上层目录
 Shift + backspace  | 在本文件夹内 返回上层目录
+
+Ctrl + shift + 上/下    开启虚拟桌面.然后左右移动进行切换
+
+
+
+```bash
+gnome-screensaver-command -l   #锁屏
+
+```

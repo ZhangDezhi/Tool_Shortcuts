@@ -129,7 +129,7 @@ $ sudo yum install code
 $ yum install gitg    #一个图形化客户端
 $ yum install git-gui 
 $ yum install gitk
-$ install git-svn
+$ yum install git-svn
 
 ## 安装xfce
 

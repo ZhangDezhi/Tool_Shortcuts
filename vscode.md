@@ -1,32 +1,19 @@
 #vscode
 
-## 快接操作
+## Windows 
+### 快接操作
    Ctrl + k , Ctrs + s  | 查看快捷键列表
    Ctrl + k , Ctrl + T  | 切换主题
    Ctrl + k , Ctrl + 0  (零)   | 折叠所有
    Ctrl + k , Ctrl + J         | 打开所有
    Ctrl + k , Ctrl + f         | 格式化代码
 
-
-
-
-
-
-## 插件
-### Clang-format
- Alt + shift + F   | 格式化代码 
+### 插件
+#### Clang-format
+Alt + shift + F   | 格式化代码 
 Alt + shift + I    | 选中部份批量编辑(最后)
 
-
-
-
-
-
-
-
-
 #### 编辑
-
 Ctrl + U  转换小写
 Ctrl + ⇧ + U  转换大写
 
@@ -39,13 +26,12 @@ tab:  选中代码右移动
 ⇧  + tab : 选中代码左移动
 alt + 左  |  后退
 alt + 右  |  前进
-#### 代码注释
 
+#### 代码注释
 Ctrl + K + C : 注释
 Ctrl + K + U : 取消注释
 
 #### 调试快捷键
-
 按F5调试运行
 F9   : 给程序的某行代码下断（点），当程序运行到此处就会停下来
 F10 : 单步步过，就是执行一行代码（遇到函数也不会进入其中）
@@ -86,3 +72,18 @@ Ctrl + 鼠标滚动 向上调大 向下调小
 ctrl + alt + k 创建/删除书签
 ctrl + alt + j  跳转上一个
 ctrl + alt + l  跳转下一个
+
+## 相关设置
+## 显示空格回车
+setting,在搜索框中输入renderControlCharacters,选中勾选框,即可显示tab.
+在搜索框中输入renderWhitespace,选择all,即可显示空格.
+
+#设置tab键	
+editor.detectIndentation
+editor.tabSize
+
+
+## Linux
+
+Ctrl+点击 跳转。 
+Ctrl+ Alt+ - 后退 

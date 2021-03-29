@@ -24,9 +24,55 @@ $ net start mysql56      # windows
 ## 登录数据库
 ```
 # 登录
-$ mysql -h 192.168.184.137 -uxopens -piscs200
+$ mysql -uxopens -piscs200 -h 192.168.184.137
 > Ues xopensdb      #进入数据库xopensdb
 > Show tables       #显示所有数据表
+
+
+mysql -u root --password=123qwe -e “SELECT host FROM mysql.user;”
+mysql -u root --password=123qwe -e “SELECT host FROM mysql.user;”
+
+#隐藏列名
+mysql -u $user --password=$password -s -N -e "MySQL Query Sentence"
+mysql -u root --password=qwe123 -s -N -e "SELECT host FROM mysql.user;"
+
+```
+
+## mas平台查看历史库
+```
+His_Event_Tab (历史事项表)
+data201901    (遥测历史数据表)
+pdata201901   (电度历史数据表)
+daydata199901 (遥测历史数据日统计表)
+daypdata199901(电度历史数据日统计表)
+mondata1999   (遥测历史数据月统计表)
+monpdata1999  (电度历史数据月统计表)
+yeardata1999  (遥测历史数据年统计表)
+yearpdata1999 (电度历史数据年统计表)。
+
+遥测历史数据表flag定义 data201901 
+
+1	Real Data	实时值
+55	Real Max	日实时存盘最大值 
+56	Real Min	日实时存盘最小值
+58	Average Data	平均值
+
+电度历史数据表flag定义 pdata201901
+
+79	KWH Day Accumulated Data	日累计电量
+
+历史统计存盘量的标志（flag）
+
+150	Day Statistic Max	日统计最大值
+151	Day Statistic Min	日统计最小值
+153	Day Statistic Average	日统计平均值
+
+
+常用sql
+
+select * from xopenshdb.data202102 where sname='Kytps_CD301AI0' and sdate=18663 and time=0 and flag<50
+select * from xopenshdb.data202102 where sname='Kytps_CD301AI0' and sdate=18663 and time=0 and flag=55
+
 ```
 
 ## 常用操作
@@ -100,3 +146,17 @@ SELECT name,submittime FROM enterprise   where date_format(submittime,'%Y-%m')=
 SELECT name,submittime FROM enterprise where submittime between date_sub(now(),interval 6 month) and now(); #查询距离当前现在6个月的数
 
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+

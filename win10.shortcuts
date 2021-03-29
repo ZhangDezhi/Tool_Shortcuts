@@ -113,5 +113,6 @@ choco install intellijidea-ultimate //IDEA 旗舰版
 choco install jdk8 googlechrome vscode 7zip //一次安装多个
 choco install nodejs.install --version 0.10.35 //安装指定版本
 choco install dev-package.config //安装dev-package.config文件内描述的所有软件包
+choco install lua 
 
 ```

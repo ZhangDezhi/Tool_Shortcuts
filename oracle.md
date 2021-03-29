@@ -71,6 +71,10 @@ Desc 表名;
 show user    --查看当前用户
 select * from v$version;   -- Oralce版本查看
 
+select * from all_tables where owner='TEST'； --TEST为用户名，用户名必须是大写。
+select table_name from user_tables; --查看当前登录的用户的表
+
+
 ```
 
 ## 常用sql(表操作)
