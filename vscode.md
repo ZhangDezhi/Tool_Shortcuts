@@ -7,10 +7,14 @@
    Ctrl + k , Ctrl + 0  (零)   | 折叠所有
    Ctrl + k , Ctrl + J         | 打开所有
    Ctrl + k , Ctrl + f         | 格式化代码
-
 ### 插件
 #### Clang-format
 Alt + shift + F   | 格式化代码 
+
+修改工具栏字体大小: File->preference->settng,在设置里面找到zoom-level，修改改值即可。
+第一个“editor.fontSize”是编辑器的字体大小，第二个“window.zoomLevel”是整个窗体的大小级
+
+
 Alt + shift + I    | 选中部份批量编辑(最后)
 
 #### 编辑

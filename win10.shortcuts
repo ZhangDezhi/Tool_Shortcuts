@@ -78,6 +78,7 @@ Alt + Enter | 属性
 Alt + D | 地址栏
 Ctrl + E | 搜索栏
 Alt + P | 打开预览
+
 Ctrl + Shift + N  | 新建文件夹
 
 
@@ -116,3 +117,6 @@ choco install dev-package.config //安装dev-package.config文件内描述的所
 choco install lua 
 
 ```
+
+Ctrl + Shift + N  | 新建文件夹
+
