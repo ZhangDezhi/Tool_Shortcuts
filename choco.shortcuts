@@ -16,6 +16,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 
 ```
 
+#chocolatey安装目录为：
+C:\Users\chzhao\AppData\Local\Temp\chocolatey\chocInstall\tools\chocolateyInstall
+
 ## 网站 
 
 官网:   https://chocolatey.org/
@@ -37,3 +40,6 @@ choco install notepadplusplus
 choco install typora
 
 choco install totalcommander --version=9.22.1
+
+
+
