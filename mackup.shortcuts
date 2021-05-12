@@ -1,5 +1,0 @@
-mackup backup -> 使用 Mackup 进行备份操作
-mackup restore -> 使用 Mackup 进行数据的恢复
-mackup list -> 查看 Mackup 支持的软件列表
-mackup -h -> Mackup 的帮助命令
-mackup uninstall -> 将配置文件拷贝回原来的系统目录

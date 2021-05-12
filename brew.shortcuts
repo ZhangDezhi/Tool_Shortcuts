@@ -1,8 +1,0 @@
-brew cask install <软件名1> <软件名2>
-brew cask install 软件名
-brew cask install google-chrome -> 安装Chrome浏览器
-brew cask search -> 列出所有可以被安装的软件
-brew cask info 软件名 -> 查找相关软件的信息
-brew cask cleanup -> 删除Homebrew Cask下载的包
-brew cask list -> 列出通过Homebrew Cask安装的包
-brew cask update -> 更新Homebrew Cask
